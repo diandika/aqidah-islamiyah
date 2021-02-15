@@ -1,0 +1,83 @@
+@media (max-width: 767px){
+    .content-overview-sm{
+        visibility: hidden;
+    }
+}
+
+.content-container {
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.list-container {
+    overflow: auto;
+}
+
+.content-overview {
+    background: #3c2051;
+    padding: 10px;
+    border: #b5519a 1px;
+    border-radius: 1px;
+    margin: 10px 0;
+    box-shadow: 0 0 1px #fff, 0 0 2px #b5519a, 0 0 6px #b5519a, 0 0 4px #b5519a, 0 0 5px #b5519a, 0 0 6px #b5519a, 0 0 7px #b5519a;
+}
+
+.content-thumbnail {
+    background: #09010c;
+    border: #b5519a 1px;
+    padding: 5px;
+    border-radius: 1px;
+    margin: 10px 0;
+    box-shadow: 0 0 1px #fff, 0 0 2px #b5519a, 0 0 6px #b5519a, 0 0 4px #b5519a, 0 0 5px #b5519a, 0 0 6px #b5519a, 0 0 7px #b5519a;
+}
+
+.image{
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    overflow:hidden;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.content-description{
+    padding: 10px 0;
+    color: white;
+    font-size: .8rem;
+    font-family: Barlow, sans-serif;
+    font-weight: 700;
+    letter-spacing: .2em;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background: #d832d8;
+    position: relative;
+    border: #d832d8 1px solid;
+    font-weight: 500;
+    font-family: Barlow, sans-serif;
+}
+
+.btn-primary:before {
+    content: " ";
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    left: 1px;
+    right: 1px;
+    border: #09010c 2px solid;
+}
+
+.btn-primary:hover{
+    background: #d832d8;
+    border: #d832d8 1px solid;
+    cursor: pointer;
+}
+
+.btn-container {
+    margin: 20px 0;
+}

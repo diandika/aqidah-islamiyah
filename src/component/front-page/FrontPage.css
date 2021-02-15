@@ -1,0 +1,73 @@
+.front-page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-link {
+    width: 100%;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    text-decoration: none;
+}
+
+.home-link:active {
+    text-decoration: none;
+}
+
+h4{
+    font-size: 60px;
+}
+
+h3{
+    font-size: 80px
+}
+
+h5{
+    color: white;
+    font-size: 30px;
+
+    text-align: center;
+}
+
+h4.glow {
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    -webkit-animation: glow1 2s ease-in-out infinite alternate;
+    -moz-animation: glow1 2s ease-in-out infinite alternate;
+    animation: glow1 2s ease-in-out infinite alternate;
+}
+
+h3.glow {
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    text-align: center;
+    -webkit-animation: glow2 2s ease-in-out infinite alternate;
+    -moz-animation: glow2 2s ease-in-out infinite alternate;
+    animation: glow2 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow1 {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 30px #e16100, 0 0 20px #e16100, 0 0 25px #e16100, 0 0 30px #e16100, 0 0 35px #e16100;
+    }
+
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 15px #fdc800, 0 0 20px #fdc800, 0 0 25px #fdc800, 0 0 30px #fdc800, 0 0 35px #fdc800, 0 0 40px #fdc800;
+    }
+}
+
+@keyframes glow2 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fd01ea, 0 0 40px #fd01ea, 0 0 50px #fd01ea, 0 0 60px #fd01ea, 0 0 70px #fd01ea;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #3e28fa, 0 0 40px #3e28fa, 0 0 50px #3e28fa, 0 0 60px #3e28fa, 0 0 70px #3e28fa, 0 0 80px #3e28fa;
+    }
+}
