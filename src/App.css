@@ -60,3 +60,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #b30000;
 }
+
+@font-face {
+  font-family: 'teyvat-font';
+  src: local('teyvat'), url("./font/teyvat.ttf") format('truetype');
+}

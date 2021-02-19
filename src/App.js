@@ -13,7 +13,7 @@ class App extends Component{
             <Router>
                 <Route path="/" exact component={FrontPage}/>
                 <Route path="/home" component={HomePage}/>
-                <Route path="/p" component={ContentPage}/>
+                <Route path="/p/:id" component={ContentPage}/>
                 <Route path="/author" component="AuthorPage"/>
             </Router>
         );

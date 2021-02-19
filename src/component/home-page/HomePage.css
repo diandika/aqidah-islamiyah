@@ -6,11 +6,13 @@
 
 .content-container {
     max-width: 90%;
-    margin: 20px auto;
+    height: 100vh;
+    padding: 10px;
 }
 
 .list-container {
-    overflow: auto;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 .content-overview {
@@ -18,7 +20,6 @@
     padding: 10px;
     border: #b5519a 1px;
     border-radius: 1px;
-    margin: 10px 0;
     box-shadow: 0 0 1px #fff, 0 0 2px #b5519a, 0 0 6px #b5519a, 0 0 4px #b5519a, 0 0 5px #b5519a, 0 0 6px #b5519a, 0 0 7px #b5519a;
 }
 
@@ -48,8 +49,8 @@
     padding: 10px 0;
     color: white;
     font-size: .8rem;
-    font-family: Barlow, sans-serif;
-    font-weight: 700;
+    font-family: teyvat-font, sans-serif;
+    font-weight: 500;
     letter-spacing: .2em;
 }
 
@@ -58,8 +59,8 @@
     background: #d832d8;
     position: relative;
     border: #d832d8 1px solid;
-    font-weight: 500;
-    font-family: Barlow, sans-serif;
+    font-weight: 100;
+    font-family: teyvat-font, sans-serif;
 }
 
 .btn-primary:before {

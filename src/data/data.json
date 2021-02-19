@@ -1,0 +1,143 @@
+{
+  "materi" : [
+    {
+      "id": 5,
+      "rangkuman": "rangkuman bab V",
+      "highlight_ayat": {
+        "surah" : 1,
+        "ayat": 1
+      },
+      "list_ayat": [
+        {
+          "surah" : 1,
+          "ayat": 2
+        },
+        {
+          "surah" : 1,
+          "ayat": 3
+        },
+        {
+          "surah" : 1,
+          "ayat": 4
+        },
+        {
+          "surah" : 1,
+          "ayat": 5
+        },
+        {
+          "surah" : 1,
+          "ayat": 6
+        },
+        {
+          "surah" : 1,
+          "ayat": 7
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "rangkuman": "rangkuman bab VI",
+      "highlight_ayat": {
+        "surah" : 36,
+        "ayat": 1
+      },
+      "list_ayat": [
+        {
+          "surah" : 36,
+          "ayat": 2
+        },
+        {
+          "surah" : 36,
+          "ayat": 3
+        },
+        {
+          "surah" : 36,
+          "ayat": 4
+        },
+        {
+          "surah" : 36,
+          "ayat": 5
+        },
+        {
+          "surah" : 36,
+          "ayat": 6
+        },
+        {
+          "surah" : 1,
+          "ayat": 7
+        }
+      ]
+    },
+    {
+    "id": 7,
+    "rangkuman": "rangkuman bab VII",
+    "highlight_ayat": {
+      "surah" : 55,
+      "ayat": 1
+    },
+    "list_ayat": [
+      {
+        "surah" : 55,
+        "ayat": 2
+      },
+      {
+        "surah" : 55,
+        "ayat": 3
+      },
+      {
+        "surah" : 55,
+        "ayat": 4
+      },
+      {
+        "surah" : 55,
+        "ayat": 5
+      },
+      {
+        "surah" : 55,
+        "ayat": 6
+      },
+      {
+        "surah" : 55,
+        "ayat": 7
+      }
+    ]
+  }
+  ],
+  "silabus" : [
+    {
+      "id": 1,
+      "nama": "PENGERITAN AQIDAH",
+      "imageUrl": "/img/lesson_1.png"
+    },
+    {
+      "id": 2,
+      "nama": "TAUHID RUBUBIYAH",
+      "imageUrl": "/img/lesson_2.png"
+    },
+    {
+      "id": 3,
+      "nama": "TAUHID MULKIYAH",
+      "imageUrl": "/img/lesson_3.png"
+    },
+    {
+      "id": 4,
+      "nama": "TAUHID ULUHIYAH",
+      "imageUrl": "/img/lesson_4.png"
+    },
+    {
+      "id": 5,
+      "nama": "SITUASI DAN KONDISI MASYARAKAT JAHILIYAH",
+      "imageUrl": "/img/lesson_5.png"
+    },
+    {
+      "id": 6,
+      "nama": "STRATEGI/POLA DASAR PERJUANGAN MUHAMMAD DALAM MEMBENTUK MASYARAKAT ISLAM",
+      "imageUrl": "/img/lesson_6.jpg"
+    },
+    {
+      "id": 7,
+      "nama": "TINGKATAN 5 WIBAWA",
+      "imageUrl": "/img/lesson_7.jpg"
+    }
+  ]
+}
