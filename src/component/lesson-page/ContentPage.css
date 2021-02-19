@@ -65,6 +65,10 @@ body{
     padding: 10px;
 }
 
+.ayat-view{
+    height: 100vh;
+}
+
 .close-icon {
     float: right;
     color: #b560a5;

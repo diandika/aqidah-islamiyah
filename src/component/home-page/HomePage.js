@@ -12,7 +12,8 @@ class HomePage extends Component {
             data: data.silabus,
             id: data.silabus[4].id,
             image: data.silabus[4].imageUrl,
-            name: data.silabus[4].nama
+            name: data.silabus[4].nama,
+            page: data.silabus[4].page
         }
         this.setThumbnail = this.setThumbnail.bind(this);
         this.showThumbnail = this.showThumbnail.bind(this);
@@ -42,8 +43,10 @@ class HomePage extends Component {
                 this.setState({
                     id: data.silabus[i].id,
                     image: process.env.PUBLIC_URL + silabus[i].imageUrl,
-                    name: silabus[i].nama
-                })
+                    name: silabus[i].nama,
+                    page: silabus[i].page
+                });
+                break;
             }
         }
     }
@@ -75,7 +78,7 @@ class HomePage extends Component {
                                             {this.state.name}
                                         </div>
                                         <div className="col-3 content-pages">
-                                            Hal. 59-77
+                                            Hal. {this.state.page}
                                         </div>
                                     </div>
                                 </div>
