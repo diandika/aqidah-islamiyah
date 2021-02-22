@@ -65,3 +65,9 @@ body {
   font-family: 'teyvat-font';
   src: local('teyvat'), url("./font/teyvat.ttf") format('truetype');
 }
+
+.text-font {
+  font-family: teyvat-font, sans-serif;
+  color: white;
+  font-size: 1.5em;
+}

@@ -1,36 +1,172 @@
 {
-  "materi" : [
+  "materi": [
     {
       "id": 5,
-      "rangkuman": "rangkuman bab V",
-      "highlight_ayat": {
-        "surah" : 10,
-        "ayat": 31
-      },
-      "list_ayat": [
+      "rangkuman": "V. Situasi Masyarakat Jahiliyah Makkah ditinjau dari aspek:",
+      "materi": [
         {
-          "surah" : 1,
-          "ayat": 2
+          "id": 1,
+          "judul": "Ideologi dan Kepercayaan",
+          "isi": {
+            "text": "Kaum musyrikin makkah membenarkan Tuhan Allah, juga dengan tuhan-tuhan lain",
+            "nash": [
+              {
+                "surah": 10,
+                "ayat": 31
+              },
+              {
+                "surah": 39,
+                "ayat": 38
+              },
+              {
+                "surah": 29,
+                "ayat": 61
+              },
+              {
+                "surah": 31,
+                "ayat": 25
+              },
+              {
+                "surah": 43,
+                "ayat": 87
+              },
+              {
+                "surah": 39,
+                "ayat": 3
+              },
+              {
+                "surah": 98,
+                "ayat": 1
+              },
+              {
+                "surah": 6,
+                "ayat": 106
+              },
+              {
+                "surah": 6,
+                "ayat": 137
+              },
+              {
+                "surah": 9,
+                "ayat": 1
+              },
+              {
+                "surah": 9,
+                "ayat": 17
+              },
+              {
+                "surah": 9,
+                "ayat": 28
+              },
+              {
+                "surah": 9,
+                "ayat": 33
+              }
+            ]
+          }
         },
         {
-          "surah" : 1,
-          "ayat": 3
+          "id": 2,
+          "judul": "Agama",
+          "isi": {
+            "text": "Masyarakat musyrikin makkah adalah penganut millah Ibrahim budaya nenek moyang",
+            "nash": [
+              {
+                "surah": 2,
+                "ayat": 170
+              },
+              {
+                "surah": 31,
+                "ayat": 21
+              },
+              {
+                "surah": 5,
+                "ayat": 104
+              },
+              {
+                "surah": 10,
+                "ayat": 15
+              }
+            ]
+          }
         },
         {
-          "surah" : 1,
-          "ayat": 4
+          "id": 3,
+          "judul": "Budaya",
+          "isi": {
+            "text": "Budaya yang berkembang adalah budaya-budaya jahiliyah",
+            "nash": [
+              {
+                "surah": 28,
+                "ayat": 4
+              },
+              {
+                "surah": 22,
+                "ayat": 13
+              },
+              {
+                "surah": 5,
+                "ayat": 91
+              },
+              {
+                "surah": 6,
+                "ayat": 137
+              },
+              {
+                "surah": 6,
+                "ayat": 140
+              },
+              {
+                "surah": 29,
+                "ayat": 67
+              }
+            ]
+          }
         },
         {
-          "surah" : 1,
-          "ayat": 5
-        },
-        {
-          "surah" : 1,
-          "ayat": 6
-        },
-        {
-          "surah" : 1,
-          "ayat": 7
+          "id": 4,
+          "judul": "Politik",
+          "isi": {
+            "text": "1. Al-Qur'an menyebut Makkah dengan sebutan \"Ummul Qura\" (Ibu Kota)\n2. Hukum yang berlaku dalam sistem tersebut adalah sistem pemerintahan non-wahyu yang bersumber dari ajaran nenek moyang\n3. Selain menegakkan sistem non-wahyu, juga menolak dan memusuhi hukum wahyu\n4. Ciri-ciri pemerintahan ini disampaikan dalam Al-Qashash (28) ayat 4",
+            "nash": [
+              {
+                "surah": 6,
+                "ayat": 92
+              },
+              {
+                "surah": 5,
+                "ayat": 50
+              },
+              {
+                "surah": 2,
+                "ayat": 170
+              },
+              {
+                "surah": 31,
+                "ayat": 21
+              },
+              {
+                "surah": 5,
+                "ayat": 104
+              },
+              {
+                "surah": 40,
+                "ayat": 5
+              },
+              {
+                "surah": 14,
+                "ayat": 13
+              },
+              {
+                "surah": 8,
+                "ayat": 30
+              },
+              {
+                "surah": 28,
+                "ayat": 4
+              }
+            ]
+          }
         }
       ]
     },
@@ -38,72 +174,52 @@
       "id": 6,
       "rangkuman": "rangkuman bab VI",
       "highlight_ayat": {
-        "surah" : 36,
+        "surah": 36,
         "ayat": 1
       },
       "list_ayat": [
         {
-          "surah" : 36,
+          "surah": 36,
           "ayat": 2
         },
         {
-          "surah" : 36,
+          "surah": 36,
           "ayat": 3
         },
         {
-          "surah" : 36,
+          "surah": 36,
           "ayat": 4
         },
         {
-          "surah" : 36,
+          "surah": 36,
           "ayat": 5
         },
         {
-          "surah" : 36,
+          "surah": 36,
           "ayat": 6
         },
         {
-          "surah" : 1,
+          "surah": 1,
           "ayat": 7
         }
       ]
     },
     {
-    "id": 7,
-    "rangkuman": "rangkuman bab VII",
-    "highlight_ayat": {
-      "surah" : 55,
-      "ayat": 1
-    },
-    "list_ayat": [
-      {
-        "surah" : 55,
-        "ayat": 2
+      "id": 7,
+      "rangkuman": "Tingkatan 5 Kewibawaan:\nA. Wibawa Imamah (Pimpinan)\nB. Wibawa Ilmiyah (Ilmu)\nC. Wibawa Jasadiyah (Fisik)\nD. Wibawa Maliyah (Dana)\nE. Wibawa Quwwah (Posisi)",
+      "highlight_ayat": {
+        "surah": 63,
+        "ayat": 8
       },
-      {
-        "surah" : 55,
-        "ayat": 3
-      },
-      {
-        "surah" : 55,
-        "ayat": 4
-      },
-      {
-        "surah" : 55,
-        "ayat": 5
-      },
-      {
-        "surah" : 55,
-        "ayat": 6
-      },
-      {
-        "surah" : 55,
-        "ayat": 7
-      }
-    ]
-  }
+      "list_ayat": [
+        {
+          "surah": 2,
+          "ayat": 286
+        }
+      ]
+    }
   ],
-  "silabus" : [
+  "silabus": [
     {
       "id": 1,
       "nama": "PENGERITAN AQIDAH",

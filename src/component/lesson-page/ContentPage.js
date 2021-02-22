@@ -11,10 +11,11 @@ class ContentPage extends Component {
 
         this.state = {
             id: Number(props.match.params.id),
-            showAyat: false,
+            showDescription: false,
             overview: '',
-            highlight: {},
-            ayat_list: {},
+            materi:[],
+            description: '',
+            ayat_list: [],
             shown_ayat:{
                 text:'ayat',
                 translation:'translation'
@@ -26,23 +27,28 @@ class ContentPage extends Component {
                 this.state = {
                     id: materi[i].id,
                     overview: materi[i].rangkuman,
-                    highlight: materi[i].highlight_ayat,
-                    ayat_list: materi[i].list_ayat,
+                    materi: materi[i].materi,
+                    description: materi[i].materi[0].isi.text,
                     shown_ayat: {
                         text: '',
-                        translation: ''
-                    }
+                        translation: '',
+                        surah: '',
+                        ayat: ''
+                    },
+                    ayat_list: materi[i].materi[0].isi.nash
                 }
             }
         }
-        fetch('https://api.quran.sutanlab.id/surah/' + this.state.highlight.surah + '/' + this.state.highlight.ayat)
+        fetch('https://api.quran.sutanlab.id/surah/' + this.state.materi[0].isi.nash[0].surah + '/' + this.state.materi[0].isi.nash[0].ayat)
             .then(res => res.json())
             .then(
                 (result) => {
                     this.setState({
-                        highlight: {
+                        shown_ayat: {
                             text: result.data.text.arab,
-                            translation: result.data.translation.id
+                            translation: result.data.translation.id,
+                            surah: this.state.materi[0].isi.nash[0].surah,
+                            ayat: this.state.materi[0].isi.nash[0].ayat
                         }
                     });
                 }
@@ -52,19 +58,42 @@ class ContentPage extends Component {
             .showAyat = this.showAyat.bind(this);
         this
             .loadAyatList = this.loadAyatList.bind(this);
+        this.loadOverview = this.loadOverview.bind(this);
+        this.showDescription = this.showDescription.bind(this);
     }
 
     componentDidMount() {
     }
 
-    getAyat() {
+    loadOverview(){
+        let overview = this.state.materi;
+        return overview.map((materi, i) => {
+            return(
+                <li onClick={() => this.showDescription(materi.id)}>
+                    <pre className="text-font">{materi.judul}</pre>
+                </li>
+            )
+        })
+    }
 
+    showDescription(id){
+        let materi;
+        for (var i=0; i < this.state.materi.length; i++){
+            if (this.state.materi[i].id === id){
+                materi = this.state.materi[i];
+                break;
+            }
+        }
+        console.log(materi);
+        this.setState({
+            showDescription: true,
+            description: materi.isi.text,
+            ayat_list: materi.isi.nash,
+        });
+        this.showAyat(materi.isi.nash[0].surah, materi.isi.nash[0].ayat);
     }
 
     showAyat(surah, ayat) {
-        this.setState({
-            showAyat: true,
-        });
         fetch('https://api.quran.sutanlab.id/surah/' + surah + '/' + ayat)
             .then(res => res.json())
             .then(
@@ -73,7 +102,9 @@ class ContentPage extends Component {
                     this.setState({
                         shown_ayat: {
                             text: result.data.text.arab,
-                            translation: result.data.translation.id
+                            translation: result.data.translation.id,
+                            surah: surah,
+                            ayat: ayat
                         }
                     });
                 }
@@ -92,19 +123,15 @@ class ContentPage extends Component {
     }
 
     render() {
-        const AyatComponent = () => (
+        const OverviewComponent = () => (
             <div id="ayat">
                 <div className="ayat-view">
                     <FontAwesomeIcon icon={faTimes} className="close-icon" onClick={() => {
-                        this.setState({showAyat: false});
+                        this.setState({showDescription: false});
                     }}/>
                     <br/>
                     <div>
-                        {this.state.shown_ayat.text}
-                    </div>
-                    <br/>
-                    <div>
-                        {this.state.shown_ayat.translation}
+                        {this.state.description}
                     </div>
                 </div>
             </div>
@@ -114,27 +141,33 @@ class ContentPage extends Component {
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <div className="content-highlight">
-                            <div className="content-box">
-                                <div className="content">
-                                    {this.state.overview}
-                                </div>
-                            </div>
-                            <div className="content-box">
-                                <div className="content">
-                                    {this.state.highlight.text}
-                                    <br/>
-                                    <br/>
-                                    {this.state.highlight.translation}
-                                </div>
+                            <div className="content">
+                                <pre className="text-font">{this.state.overview}</pre>
+                                <ul>
+                                {this.loadOverview()}
+                                </ul>
+                                {this.state.showDescription ? <OverviewComponent /> : null}
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12">
-                        <div className="ayat-list">
+                        <div className="content-box">
+                            <div className="content">
+                                <div className="arabic-font-style">
+                                    {this.state.shown_ayat.text}
+                                </div>
+                                <br/>
+                                <div>
+                                {this.state.shown_ayat.translation}
+                                </div>
+                                <br/>
+                                QS {this.state.shown_ayat.surah}:{this.state.shown_ayat.ayat}
+                            </div>
+                        </div>
+                        <div className="ayat-list content-box">
                             <div className="content">
                                 {this.loadAyatList()}
                             </div>
-                            {this.state.showAyat ? <AyatComponent/> : null}
                         </div>
                     </div>
                 </div>
