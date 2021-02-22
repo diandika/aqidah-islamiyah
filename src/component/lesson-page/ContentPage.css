@@ -3,8 +3,7 @@ body{
 }
 
 .content-page {
-    height: 100vh;
-    position: relative;
+    height: 100%;
 }
 
 .content-page .row{
@@ -31,8 +30,8 @@ body{
     height: 100%;
     color: white;
     font-size: .8rem;
-    font-family: Barlow, sans-serif;
-    font-weight: 700;
+    font-family: teyvat-font, sans-serif;
+    font-weight: 300;
 }
 
 .ayat-list {
@@ -40,8 +39,8 @@ body{
     height: 100vh;
     color: white;
     font-size: 1.2rem;
-    font-family: Barlow, sans-serif;
-    font-weight: 700;
+    font-family: teyvat-font, sans-serif;
+    font-weight: 300;
 }
 
 .ayat-item {
@@ -52,21 +51,23 @@ body{
 }
 
 #ayat {
+    padding: 20px;
     color: white;
     font-size: 1.2rem;
-    font-family: Barlow, sans-serif;
-    font-weight: 700;
+    font-family: teyvat-font, sans-serif;
+    font-weight: 500;
     position: absolute;
-    width: 100%;
-    height: 100%;
     top: 0;
     left: 0;
-    margin: 10px 0;
-    padding: 10px;
+    bottom: 0;
+    right: 0;
+    margin: 20px 15px;
+    background: #030004;
 }
 
 .ayat-view{
     height: 100vh;
+    overflow-y: auto;
 }
 
 .close-icon {

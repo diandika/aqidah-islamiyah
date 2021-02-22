@@ -93,8 +93,8 @@ class ContentPage extends Component {
 
     render() {
         const AyatComponent = () => (
-            <div id="ayat" className="ayat-view">
-                <div className="content">
+            <div id="ayat">
+                <div className="ayat-view">
                     <FontAwesomeIcon icon={faTimes} className="close-icon" onClick={() => {
                         this.setState({showAyat: false});
                     }}/>
@@ -123,6 +123,7 @@ class ContentPage extends Component {
                                 <div className="content">
                                     {this.state.highlight.text}
                                     <br/>
+                                    <br/>
                                     {this.state.highlight.translation}
                                 </div>
                             </div>
@@ -133,10 +134,10 @@ class ContentPage extends Component {
                             <div className="content">
                                 {this.loadAyatList()}
                             </div>
+                            {this.state.showAyat ? <AyatComponent/> : null}
                         </div>
                     </div>
                 </div>
-                {this.state.showAyat ? <AyatComponent/> : null}
             </div>
         )
     }
