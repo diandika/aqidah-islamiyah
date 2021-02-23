@@ -172,50 +172,208 @@
     },
     {
       "id": 6,
-      "rangkuman": "rangkuman bab VI",
-      "highlight_ayat": {
-        "surah": 36,
-        "ayat": 1
-      },
-      "list_ayat": [
+      "rangkuman": "VI. Strategi Perjuangan Muhammad Dalam Membentuk Masyarakat Islam",
+      "materi": [
         {
-          "surah": 36,
-          "ayat": 2
+          "id": 1,
+          "judul": "Masyarakat Islam dan Eksistensi Lembaga Wahyu",
+          "isi": {
+            "text": "1. Sebelum adanya sistem kepemimpinan ini, masyarakat islam dipandang sesat\n2. Lembaga rasul adalah sarana beramal dan beribadah\n3. Merealisasikan ketaan kepada Allah dengan menaati rasul-Nya\n4. Menolak Lembaga Rasul dapat menggugurkan iman seseorang\n5. Keberadaan lembaga umat dituntut secara mutlak\n6. Lembaga rasul berperan sebagai saksi interaksi antara manusia dengan Allah\n7. Adanya lembaga yang melaksanakan hukum-hukum Allah melahirkan Islam Kaffah\n8. Ridha Allah dan ampunan-Nya dapat diperoleh seseorang yang berada dalam lembaga rasul/ulil amri",
+            "nash": [
+              {
+                "surah": 3,
+                "ayat":164
+              },
+              {
+                "surah": 9,
+                "ayat":71
+              },
+              {
+                "surah": 4,
+                "ayat":64
+              },
+              {
+                "surah": 4,
+                "ayat":59
+              },
+              {
+                "surah": 4,
+                "ayat":80
+              },
+              {
+                "surah": 4,
+                "ayat":65
+              },
+              {
+                "surah": 24,
+                "ayat":47
+              },
+              {
+                "surah": 3,
+                "ayat":32
+              },
+              {
+                "surah": 47,
+                "ayat":33
+              },
+              {
+                "surah": 49,
+                "ayat":1
+              },
+              {
+                "surah": 49,
+                "ayat":2
+              },
+              {
+                "surah": 30,
+                "ayat":31
+              },
+              {
+                "surah": 30,
+                "ayat":32
+              },
+              {
+                "surah": 6,
+                "ayat":159
+              },
+              {
+                "surah": 3,
+                "ayat":103
+              },
+              {
+                "surah": 3,
+                "ayat":104
+              },
+              {
+                "surah": 3,
+                "ayat":105
+              },
+              {
+                "surah": 3,
+                "ayat":112
+              },
+              {
+                "surah": 8,
+                "ayat":73
+              },
+              {
+                "surah": 22,
+                "ayat":78
+              },
+              {
+                "surah": 9,
+                "ayat":111
+              },
+              {
+                "surah": 48,
+                "ayat":8
+              },
+              {
+                "surah": 48,
+                "ayat":10
+              },
+              {
+                "surah": 2,
+                "ayat":208
+              },
+              {
+                "surah": 25,
+                "ayat":32
+              },
+              {
+                "surah": 17,
+                "ayat":106
+              },
+              {
+                "surah": 4,
+                "ayat":69
+              },
+              {
+                "surah": 4,
+                "ayat":70
+              }
+            ]
+          }
         },
         {
-          "surah": 36,
-          "ayat": 3
+          "id": 2,
+          "judul": "Pemerintahan Rasul Sebagai Pemerintahan Berpola Hijrah",
+          "isi": {
+            "text": "1. Dalam islam, hanya ada satu kedaulatan yang wajib diakui dan ditaati\n2. Tidak dibenarkan bekerjasama dengan pemerintahan selain pemerintahan rasul\n3. Konsisten menjalankan pemerintahan ini secara total\n4. Mengakui keberadaan bangsa\n5. Menjalankan sifat furqan",
+            "nash": [
+              {
+                "surah":25 ,
+                "ayat":2
+              },
+              {
+                "surah":17 ,
+                "ayat":111
+              },
+              {
+                "surah":5 ,
+                "ayat":80
+              },
+              {
+                "surah":6,
+                "ayat":106
+              },
+              {
+                "surah":6 ,
+                "ayat": 121
+              },
+              {
+                "surah":49,
+                "ayat":13
+              },
+              {
+                "surah":5,
+                "ayat":40
+              },
+              {
+                "surah":60,
+                "ayat":4
+              },
+              {
+                "surah":4,
+                "ayat":140
+              }
+            ]
+          }
         },
         {
-          "surah": 36,
-          "ayat": 4
-        },
-        {
-          "surah": 36,
-          "ayat": 5
-        },
-        {
-          "surah": 36,
-          "ayat": 6
-        },
-        {
-          "surah": 1,
-          "ayat": 7
+          "id": 3,
+          "judul": "Lembaga yang dibangun dengan tahapan kesejarahan periode makkiyah dan madaniyah",
+          "isi": {
+            "text": "1. Kehidupan di dunia adalah proses\n2. Lembaga pemerintahan wahyu juga dibentuk secara berproses dari turunnya wahyu pertama sampai terakhir\n3. Terdapat 2 periode dalam proses pembentukan pemerintahan islam: Makkiyah dan Madaniyah\n4. ",
+            "nash": [
+              {
+                "surah":1 ,
+                "ayat":1
+              }
+            ]
+          }
         }
       ]
     },
     {
       "id": 7,
-      "rangkuman": "Tingkatan 5 Kewibawaan:\nA. Wibawa Imamah (Pimpinan)\nB. Wibawa Ilmiyah (Ilmu)\nC. Wibawa Jasadiyah (Fisik)\nD. Wibawa Maliyah (Dana)\nE. Wibawa Quwwah (Posisi)",
-      "highlight_ayat": {
-        "surah": 63,
-        "ayat": 8
-      },
-      "list_ayat": [
+      "rangkuman": "",
+      "materi": [
         {
-          "surah": 2,
-          "ayat": 286
+          "id": "1",
+          "judul": "Tingkatan 5 Kewibawaan:\nA. Wibawa Imamah (Pimpinan)\nB. Wibawa Ilmiyah (Ilmu)\nC. Wibawa Jasadiyah (Fisik)\nD. Wibawa Maliyah (Dana)\nE. Wibawa Quwwah (Posisi)",
+          "isi": {
+            "text": "",
+            "nash": [
+              {
+                "surah": 63,
+                "ayat": 8
+              }
+            ]
+          }
+
         }
+
       ]
     }
   ],

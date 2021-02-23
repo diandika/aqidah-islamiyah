@@ -8,13 +8,13 @@ class FrontPage extends Component{
             <div className="container front-page">
                 <Link className="home-link" to="/home">
                     <div>
-                        <h4 className="glow">Fenomena</h4>
+                        <h5 className="glow">Fenomena</h5>
                         <h3 className="glow">AQIDAH</h3>
-                        <h4 className="glow">Islamiyah</h4>
+                        <h5 className="glow">Islamiyah</h5>
                         <br/>
                         <br/>
                         <div>
-                            <h5>click to open</h5>
+                            <h5 className="animate-blinking">click to open</h5>
                         </div>
                     </div>
                 </Link>
