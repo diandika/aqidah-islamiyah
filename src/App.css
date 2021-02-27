@@ -1,5 +1,6 @@
 body {
   background: url("img/bg_tile.jpg") repeat;
+  font-family: teyvat-font, sans-serif;
 }
 
 .App {

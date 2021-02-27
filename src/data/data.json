@@ -344,11 +344,23 @@
           "id": 3,
           "judul": "Lembaga yang dibangun dengan tahapan kesejarahan periode makkiyah dan madaniyah",
           "isi": {
-            "text": "1. Kehidupan di dunia adalah proses\n2. Lembaga pemerintahan wahyu juga dibentuk secara berproses dari turunnya wahyu pertama sampai terakhir\n3. Terdapat 2 periode dalam proses pembentukan pemerintahan islam: Makkiyah dan Madaniyah\n4. ",
+            "text": "1. Kehidupan di dunia adalah proses\n2. Lembaga pemerintahan wahyu juga dibentuk secara berproses dari turunnya wahyu pertama sampai terakhir\n3. Terdapat 2 periode dalam proses pembentukan pemerintahan islam: Makkiyah dan Madaniyah\n4. Fathu Makkah",
             "nash": [
               {
-                "surah":1 ,
-                "ayat":1
+                "surah":17 ,
+                "ayat":77
+              },
+              {
+                "surah":33 ,
+                "ayat":62
+              },
+              {
+                "surah":25 ,
+                "ayat":32
+              },
+              {
+                "surah":17 ,
+                "ayat":106
               }
             ]
           }
